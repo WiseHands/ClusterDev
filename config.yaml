@@ -1,6 +1,6 @@
 apps:
-- id: prometheus-grafana
-  name: 'Monitoring: Prometheus & Grafana'
+- id: ingresscontroller
+  name: Ingress Controller
 cluster:
   cloud:
     domain: shalb.net
@@ -8,7 +8,7 @@ cluster:
     region: do-2
     vpc: myId
   installed: true
-  name: test
+  name: minikube-aws
   provisioner:
     instanceType: n10-large
     type: clusterapi
