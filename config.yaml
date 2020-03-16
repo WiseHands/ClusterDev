@@ -1,14 +1,6 @@
 apps:
-- id: ingresscontroller
-  name: Ingress Controller
-- id: kubernetesdashboard
-  name: Kubernetes Dashboard
-- id: prometheus-grafana
-  name: 'Monitoring: Prometheus & Grafana'
 - id: argocs
   name: ArgoCD
-- id: letsencrypt
-  name: Cert-Manager LetsEncrypt
 cluster:
   cloud:
     domain: shalb.net
