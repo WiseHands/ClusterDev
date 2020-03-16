@@ -1,4 +1,6 @@
 apps:
+- id: ingresscontroller
+  name: Ingress Controller
 - id: kubernetesdashboard
   name: Kubernetes Dashboard
 cluster:
