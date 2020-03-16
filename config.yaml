@@ -3,8 +3,6 @@ apps:
   name: Ingress Controller
 - id: kubernetesdashboard
   name: Kubernetes Dashboard
-- id: loggingwithelk
-  name: Logging with ELK
 - id: prometheus-grafana
   name: 'Monitoring: Prometheus & Grafana'
 - id: argocs
