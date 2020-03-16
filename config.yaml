@@ -1,4 +1,7 @@
-apps: []
+apps:
+- default: true
+  id: ingresscontroller
+  name: Ingress Controller
 cluster:
   cloud:
     domain: shalb.net
