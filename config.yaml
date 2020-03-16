@@ -1,6 +1,12 @@
 apps:
-- id: argocs
-  name: ArgoCD
+- id: ingresscontroller
+  name: Ingress Controller
+- id: kubernetesdashboard
+  name: Kubernetes Dashboard
+- id: loggingwithelk
+  name: Logging with ELK
+- id: prometheus-grafana
+  name: 'Monitoring: Prometheus & Grafana'
 cluster:
   cloud:
     domain: shalb.net
