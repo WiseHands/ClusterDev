@@ -1,1 +1,12 @@
-somekljkl data
+apps: []
+cluster:
+  cloud:
+    domain: shalb.net
+    provider: digitalocean
+    region: do-2
+    vpc: myId
+  installed: true
+  name: minikube-aws
+  provisioner:
+    instanceType: n10-large
+    type: clusterapi
