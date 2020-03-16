@@ -1,4 +1,6 @@
-apps: []
+apps:
+- id: kubernetesdashboard
+  name: Kubernetes Dashboard
 cluster:
   cloud:
     domain: shalb.net
