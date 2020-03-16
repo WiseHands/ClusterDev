@@ -1,10 +1,4 @@
 apps:
-- id: ingresscontroller
-  name: Ingress Controller
-- id: kubernetesdashboard
-  name: Kubernetes Dashboard
-- id: loggingwithelk
-  name: Logging with ELK
 - id: prometheus-grafana
   name: 'Monitoring: Prometheus & Grafana'
 cluster:
@@ -14,7 +8,7 @@ cluster:
     region: do-2
     vpc: myId
   installed: true
-  name: minikube-aws
+  name: test
   provisioner:
     instanceType: n10-large
     type: clusterapi
