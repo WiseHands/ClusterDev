@@ -11,9 +11,6 @@ apps:
   id: loggingwithelk
   name: Logging with ELK
   selected: true
-- id: prometheus-grafana
-  name: 'Monitoring: Prometheus & Grafana'
-  selected: true
 cluster:
   cloud:
     domain: shalb.net
