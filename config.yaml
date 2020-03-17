@@ -1,6 +1,16 @@
 apps:
-- id: ingresscontroller
+- default: true
+  id: ingresscontroller
   name: Ingress Controller
+  selected: true
+- default: true
+  id: kubernetesdashboard
+  name: Kubernetes Dashboard
+  selected: true
+- default: true
+  id: loggingwithelk
+  name: Logging with ELK
+  selected: true
 cluster:
   cloud:
     domain: shalb.net
