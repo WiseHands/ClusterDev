@@ -1,24 +1,12 @@
-apps:
-- default: true
-  id: ingresscontroller
-  name: Ingress Controller
-  selected: true
-- default: true
-  id: kubernetesdashboard
-  name: Kubernetes Dashboard
-  selected: true
-- default: true
-  id: loggingwithelk
-  name: Logging with ELK
-  selected: true
+apps: []
 cluster:
   cloud:
     domain: shalb.net
-    provider: googlecloud
-    region: 32l-2
-    vpc: myId
+    provider: aws
+    region: eu-central-2
+    vpc: default
   installed: true
-  name: minikube-aws
+  name: minikube-awss
   provisioner:
     instanceType: m5-large
     type: minikube
