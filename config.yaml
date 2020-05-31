@@ -11,20 +11,14 @@ apps:
   id: loggingwithelk
   name: Logging with ELK
   selected: true
-- id: prometheus-grafana
-  name: 'Monitoring: Prometheus & Grafana'
-  selected: true
-- id: argocs
-  name: ArgoCD
-  selected: true
 cluster:
   cloud:
     domain: shalb.net
-    provider: digitalocean
-    region: do-2
+    provider: googlecloud
+    region: 32l-2
     vpc: myId
   installed: true
   name: minikube-aws
   provisioner:
-    instanceType: n10-large
-    type: clusterapi
+    instanceType: m5-large
+    type: minikube
