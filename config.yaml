@@ -4,17 +4,17 @@ apps:
   name: Ingress Controller
   selected: true
 - default: true
-  id: kubernetesdashboard
-  name: Kubernetes Dashboard
+  id: loggingwithelk
+  name: Logging with ELK
   selected: true
 cluster:
   cloud:
     domain: shalb.net
     provider: aws
-    region: eu-central-3
-    vpc: default
+    region: eu-central-2
+    vpc: myId
   installed: true
-  name: minikube-awss
+  name: minikube-aws
   provisioner:
-    instanceType: m5-large
-    type: minikube
+    instanceType: n10-large
+    type: clusterapi
