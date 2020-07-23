@@ -3,18 +3,17 @@ apps:
   id: ingresscontroller
   name: Ingress Controller
   selected: true
-- default: true
-  id: loggingwithelk
-  name: Logging with ELK
+- id: letsencrypt
+  name: Cert-Manager LetsEncrypt
   selected: true
 cluster:
   cloud:
     domain: shalb.net
-    provider: aws
-    region: eu-central-2
+    provider: googlecloud
+    region: 32l-2
     vpc: myId
   installed: true
-  name: minikube-aws
+  name: appl
   provisioner:
     instanceType: n10-large
     type: clusterapi
