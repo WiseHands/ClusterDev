@@ -15,7 +15,7 @@ cluster:
   cloud:
     domain: shalb.net
     provider: digitalocean
-    region: do-1
+    region: do-2
     vpc: myId
   installed: true
   name: minikube-aws
